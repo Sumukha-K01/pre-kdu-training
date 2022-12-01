@@ -1,0 +1,18 @@
+QUERY 01:
+
+SELECT employee.employee_id, employee.employee_name, department.department_name 
+FROM department,employee;
+
+QUERY 02:
+
+SELECT employee_name, salary 
+FROM employee 
+ORDER BY salary DESC;
+
+
+QUERY 03:
+
+SELECT DEPARTMENT_ID,AVG(SALARY) AS AVERAGE_SALARY 
+FROM department 
+GROUP BY DEPARTMENT_ID;
+
